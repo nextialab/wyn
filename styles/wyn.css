@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+}
+
+h1, h2, h3 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.container-green {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 10px;
+    border-color: Green;
+}
+
+.container-pink {
+    padding: 10px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: Pink;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    overflow: hidden; /* hack */
+}
+
+.col-6 {
+    float: left;
+    width: 50%;
+}
+
+.center {
+    text-align: center;
+}
