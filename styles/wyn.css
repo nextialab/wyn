@@ -1,6 +1,13 @@
+@font-face {
+    font-family: Ringbearer;
+    src: url(aniron.ttf);
+}
+
 body {
+    font-family: Ringbearer;
     margin: 0px;
     color: #725b4d;
+    line-height: 1.9em;
 }
 
 h1, h2, h3 {
@@ -9,15 +16,16 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 50px;
-}
-
-h2 {
+    /*font-size: 50px;*/
     font-size: 37px;
 }
 
-h3 {
+h2 {
     font-size: 28px;
+}
+
+h3 {
+    font-size: 21px;
 }
 
 .container-green {
@@ -52,4 +60,34 @@ h3 {
 
 .center {
     text-align: center;
+}
+
+iframe {
+    width: 600px;
+    height: 450px;
+}
+
+@media screen and (max-width: 650px) {
+
+iframe {
+    width: 90%;
+    height: 200px;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
 }
