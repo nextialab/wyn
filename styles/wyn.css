@@ -79,6 +79,10 @@ iframe {
     padding-top: 48px;
 }
 
+.normal {
+    font-family: Arial;
+}
+
 @media screen and (max-width: 650px) {
 
 iframe {
